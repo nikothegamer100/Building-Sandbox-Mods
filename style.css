@@ -1,0 +1,14 @@
+button {
+    background-color: rgb(145, 171, 228);
+    padding: 10px;
+    border-radius: 2px;
+    border-color: rebeccapurple;
+}
+@keyframes buttonHover {
+    from {background-color: rgb(145, 171, 228)}
+    to {background-color: aqua; padding: 12px;}
+}
+button:hover {
+    animation-name: buttonHover;
+    animation-duration: 1s;
+}
